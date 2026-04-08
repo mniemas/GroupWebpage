@@ -74,10 +74,22 @@ h2 {
     margin: 0 0 10px;
 }
 
+.mason-h2 {
+    margin: 0 0 10px;
+    font-family: Monospace, Fixedsys;
+}
+
 /* Initially hide bio details */
 .bio {
     display: none;
     margin-top: 10px;
+    color: #555;
+}
+
+.mason-bio {
+    display: none;
+    margin-top: 10px;
+    font-family: Monospace, Fixedsys;
     color: #555;
 }
 
@@ -94,6 +106,7 @@ h2 {
 /* Button styling */
 .mason-buttonLink {
     display: none;
+    font-family: Monospace, Fixedsys;
     background: #808080;
     color: white;
     border: none;
@@ -105,11 +118,13 @@ h2 {
 
 .mason-button {
     background: #808080;
+    font-family: Monospace, Fixedsys;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5px
 }
 
 .mason-button:hover {
