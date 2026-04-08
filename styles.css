@@ -68,6 +68,7 @@ header nav button:hover {
     width: 150px; /* Adjust the size as needed */
     border-radius: 8px;
     margin-top: 10px;
+    margin-bottom: 10px
 }
 
 h2 {
@@ -113,7 +114,7 @@ h2 {
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px
+    margin: 5px
 }
 
 .mason-button {
@@ -124,7 +125,6 @@ h2 {
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 5px
 }
 
 .mason-button:hover {
