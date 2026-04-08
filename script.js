@@ -2,14 +2,13 @@
  * Toggles the display of an individual team member's bio
  * @param {string} bioId - The ID of the bio section to show or hide
  */
-function toggleBio(bioId) {
-    const bio = document.getElementById(bioId);
-    // Toggle between showing and hiding the bio section
-    if (bio.style.display === "none" || bio.style.display === "") {
-        bio.style.display = "block";
-    } else {
-        bio.style.display = "none";
-    }
+function toggleBio(ids) {
+    ids.forEach( id => { // loops through all given ids
+        const el = document.getElementById(id); // gets id of element
+        const isHidden = el.style.display === "none" || el.style.display === ""; // checks if element is hidden
+        el.style.display = isHidden ? "block" : "none"; // if is, show, if not, remove
+        }
+    )
 }
 
 /**

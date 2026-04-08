@@ -64,6 +64,13 @@ header nav button:hover {
     transform: scale(1.05);
 }
 
+.personal-pic {
+    width: 150px; /* Adjust the size as needed */
+    height: 100px
+    object-fit: cover;
+    margin-top: 10px;
+}
+
 h2 {
     margin: 0 0 10px;
 }
@@ -75,7 +82,27 @@ h2 {
     color: #555;
 }
 
+.bio-pic {
+    display: none;
+    width: 300px; /* Adjust the size as needed */
+    height: 100px
+    object-fit: cover;
+    margin-top: 10px;
+    margin: auto;
+}
+
 /* Button styling */
+.buttonLink {
+    display: none;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px
+}
+
 button {
     background: #007BFF;
     color: white;

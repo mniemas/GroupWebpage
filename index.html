@@ -24,10 +24,15 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
     <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <h2>Mason Niemas</h2>
+        <img src="img/masonN.png" alt="Mason's Picture" class="personal-pic">
+        <p>Product Owner</p>
+        <button onclick="toggleBio(['bio1','bioLink1', 'bioLink2', 'bioImg1', 'bioImg2'])">Show Bio</button>
+        <p id="bio1" class="bio">Mason is a sophomore pursuing a computer science degree with a focus on game development.</p>
+        <a id = "bioLink1" class="buttonLink" href="http://github.com/mniemas">GitHub</a>
+        <a id = "bioLink2" class="buttonLink" href="https://shyguy-vlogs.itch.io/">Itch.io</a>
+        <img id="bioImg1" src="img/miracleSort.png" alt="miracle sort" class="bio-pic">
+        <img id="bioImg2" src="img/englishCoding.png" alt="english coding" class="bio-pic">
     </div>
     <div class="card">
         <h2>Jane Smith</h2>
