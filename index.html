@@ -27,22 +27,24 @@
         <h2>Mason Niemas</h2>
         <img src="img/masonN.png" alt="Mason's Picture" class="personal-pic">
         <p>Product Owner</p>
-        <button onclick="toggleBio(['bio1','bioLink1', 'bioLink2', 'bioImg1', 'bioImg2'])">Show Bio</button>
+        <button class="mason-button" onclick="toggleBio(['bio1','bioLink1', 'bioLink2', 'bioImg1', 'bioImg2'])">Show Bio</button>
         <p id="bio1" class="bio">Mason is a sophomore pursuing a computer science degree with a focus on game development.</p>
-        <a id = "bioLink1" class="buttonLink" href="http://github.com/mniemas">GitHub</a>
-        <a id = "bioLink2" class="buttonLink" href="https://shyguy-vlogs.itch.io/">Itch.io</a>
+        <a id = "bioLink1" class="mason-buttonLink" href="http://github.com/mniemas">GitHub</a>
+        <a id = "bioLink2" class="mason-buttonLink" href="https://shyguy-vlogs.itch.io/">Itch.io</a>
         <img id="bioImg1" src="img/miracleSort.png" alt="miracle sort" class="bio-pic">
         <img id="bioImg2" src="img/englishCoding.png" alt="english coding" class="bio-pic">
     </div>
     <div class="card">
         <h2>Jane Smith</h2>
         <p>Backend Developer</p>
+        <!-- I altered the toggleBio func to take in an array of id's so just put in all the ids of the pics and text for your bios! -->
         <button onclick="toggleBio('bio2')">Show Bio</button>
         <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
     </div>
     <div class="card">
         <h2>Emily Johnson</h2>
         <p>UI/UX Designer</p>
+        <!-- I altered the toggleBio func to take in an array of id's so just put in all the ids of the pics and text for your bios! -->
         <button onclick="toggleBio('bio3')">Show Bio</button>
         <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
     </div>

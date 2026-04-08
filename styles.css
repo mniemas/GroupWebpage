@@ -66,8 +66,7 @@ header nav button:hover {
 
 .personal-pic {
     width: 150px; /* Adjust the size as needed */
-    height: 100px
-    object-fit: cover;
+    border-radius: 8px;
     margin-top: 10px;
 }
 
@@ -88,19 +87,33 @@ h2 {
     height: 100px
     object-fit: cover;
     margin-top: 10px;
+    border-radius: 8px;
     margin: auto;
 }
 
 /* Button styling */
-.buttonLink {
+.mason-buttonLink {
     display: none;
-    background: #007BFF;
+    background: #808080;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     margin: 10px
+}
+
+.mason-button {
+    background: #808080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mason-button:hover {
+    background: #545454;
 }
 
 button {
