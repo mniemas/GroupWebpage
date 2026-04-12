@@ -26,7 +26,7 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
+    background: #FFB6C1;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -36,7 +36,7 @@ header nav button {
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #FAA0A0;
 }
 
 /* Flex container for team bios and vision sections */
@@ -132,7 +132,7 @@ h2 {
 }
 
 button {
-    background: #007BFF;
+    background: #636363;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -141,7 +141,11 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #141414;
+}
+
+.moodboard{
+    display: none;
 }
 
 #KrishikaS {

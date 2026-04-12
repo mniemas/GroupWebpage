@@ -11,8 +11,7 @@
 <header>
     <h1>Meet Our Team</h1>
     <!-- Example team logo -->
-    <img src="<img src="img/Team-Panda-Logo.png" alt="Team Panda Logo" id="team-logo">" alt="Team Logo" class="team-logo">
-
+    <img src="img/TeamPandaLogo.png" alt="Team Panda Logo" id="team-logo" class="personal-pic">
     <!-- Navigation menu to switch between sections -->
     <nav>
         <button onclick="showSection('bios')">Team Bios</button>
@@ -34,12 +33,16 @@
         <img id="bioImg1" src="img/miracleSort.png" alt="miracle sort" class="bio-pic">
         <img id="bioImg2" src="img/englishCoding.png" alt="english coding" class="bio-pic">
     </div>
+    <!-- Team Member - Krishika -->
     <div class="card">
-        <h2>Jane Smith</h2>
-        <p>Backend Developer</p>
+        <h2>Krishika Sandiri</h2>
+        <img src="img/KrishikaSandiri.jpg" alt="Krishika Sandiri" class="personal-pic">
+        <p>Role: Data Scientist & Computer Scientist</p>
         <!-- I altered the toggleBio func to take in an array of id's so just put in all the ids of the pics and text for your bios! -->
-        <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+        <button onclick="toggleBio(['bio2','bio2link','bio2Con'])">Show Bio</button>
+        <h4 class="moodboard" id="bio2">Inspirations</h4>
+        <a class="moodboard" id="bio2link" href="https://github.com/ksandiri">GitHub Profile</a>
+        <p class="moodboard" id ="bio2Con">Favorite Concept: Niche Dataset Analysis</p>
     </div>
     <div class="card">
         <h2>Emily Johnson</h2>
@@ -47,18 +50,6 @@
         <!-- I altered the toggleBio func to take in an array of id's so just put in all the ids of the pics and text for your bios! -->
         <button onclick="toggleBio('bio3')">Show Bio</button>
         <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
-    </div>
-</div>
-
-<!-- Team Member - Krishika -->
-<div class="bio-card" id="KrishikaS">
-    <img src="img/KrishikaS.jpg" alt="Krishika Sandiri">
-    <h3>[Krishika Sandiri]</h3>
-    <p>Role: Data Scientist & Computer Scientist</p>
-    <div class="moodboard">
-        <h4>Inspirations</h4>
-        <a href="https://github.com/ksandiri">GitHub Profile</a>
-        <p>Favorite Concept: Niche Dataset Analysis</p>
     </div>
 </div>
 
