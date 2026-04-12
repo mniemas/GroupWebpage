@@ -1,0 +1,145 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styling for team logo image */
+.team-logo {
+    width: 150px; /* Adjust the size as needed */
+    margin-top: 10px;
+}
+
+/* Menu button styling */
+header nav {
+    margin-top: 10px;
+}
+
+header nav button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+header nav button:hover {
+    background: #0056b3;
+}
+
+/* Flex container for team bios and vision sections */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Card styling for individual team bios */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.personal-pic {
+    width: 150px; /* Adjust the size as needed */
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+.mason-h2 {
+    margin: 0 0 10px;
+    font-family: Monospace, Fixedsys;
+}
+
+/* Initially hide bio details */
+.bio {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
+.mason-bio {
+    display: none;
+    margin-top: 10px;
+    font-family: Monospace, Fixedsys;
+    color: #555;
+}
+
+.bio-pic {
+    display: none;
+    width: 300px; /* Adjust the size as needed */
+    height: 100px
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+/* Button styling */
+.mason-buttonLink {
+    display: none;
+    font-family: Monospace, Fixedsys;
+    background: #808080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px
+}
+
+.mason-button {
+    background: #808080;
+    font-family: Monospace, Fixedsys;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mason-button:hover {
+    background: #545454;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}

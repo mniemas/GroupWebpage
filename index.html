@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Bio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<header>
+    <h1>Meet Our Team</h1>
+    <!-- Example team logo -->
+    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
+
+    <!-- Navigation menu to switch between sections -->
+    <nav>
+        <button onclick="showSection('bios')">Team Bios</button>
+        <button onclick="showSection('vision')">Team Vision</button>
+    </nav>
+</header>
+
+<!-- Team bios section (default section) -->
+<div id="bios" class="container">
+    <!-- Each card represents an individual team member -->
+    <div class="card">
+        <h2 class="mason-h2">Mason Niemas</h2>
+        <img src="img/masonN.png" alt="Mason's Picture" class="personal-pic">
+        <p class="mason-h2">Product Owner</p>
+        <button class="mason-button" onclick="toggleBio(['bio1','bioLink1', 'bioLink2', 'bioImg1', 'bioImg2'])">Show Bio</button>
+        <p id="bio1" class="mason-bio">Mason is a sophomore pursuing a computer science degree with a focus on game development.</p>
+        <a id = "bioLink1" class="mason-buttonLink" href="http://github.com/mniemas">GitHub</a>
+        <a id = "bioLink2" class="mason-buttonLink" href="https://shyguy-vlogs.itch.io/">Itch.io</a>
+        <img id="bioImg1" src="img/miracleSort.png" alt="miracle sort" class="bio-pic">
+        <img id="bioImg2" src="img/englishCoding.png" alt="english coding" class="bio-pic">
+    </div>
+    <div class="card">
+        <h2>Jane Smith</h2>
+        <p>Backend Developer</p>
+        <!-- I altered the toggleBio func to take in an array of id's so just put in all the ids of the pics and text for your bios! -->
+        <button onclick="toggleBio('bio2')">Show Bio</button>
+        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+    </div>
+    <div class="card">
+        <h2>Emily Johnson</h2>
+        <p>UI/UX Designer</p>
+        <!-- I altered the toggleBio func to take in an array of id's so just put in all the ids of the pics and text for your bios! -->
+        <button onclick="toggleBio('bio3')">Show Bio</button>
+        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+    </div>
+</div>
+
+<!-- Team vision/mission statement section (hidden by default) -->
+<div id="vision" class="container" style="display: none;">
+    <h2>Our Mission Statement</h2>
+    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+</div>
+
+<script src="script.js"></script> <!-- Link to external JavaScript file -->
+
+</body>
+</html>
