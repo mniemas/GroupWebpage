@@ -153,3 +153,58 @@ button:hover {
     background-color: #f9f9f9;
     padding: 20px;
 }
+
+/* Vanita's Section */
+.vanita-picture {
+    height: 150px;
+    width: auto;
+    border-radius: 8px;
+}
+/*Font theme*/
+.rancho-regular {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#bio3 {
+    font-family: "Rancho", cursive;
+    font-size: 20px;
+    color: #7E5A9B;
+}
+#bio3-button:hover {
+    background-color: #63458A;
+}
+#bio3 ul {
+    text-align: left;
+}
+#bio3 a:link {
+    color: #9A48D0;
+}
+#bio3 a:visited {
+    color: #63458A;
+}
+#bio3 a:hover {
+    font-size: x-large;
+}
+#bio3 {
+    background-color: #fbf3fb;
+    padding: 3px 3px 5px 3px;
+    border-radius: 10px;
+}
+#bio3-2 {
+    background-color: #FDFAFD;
+    padding-right: 0.5px;
+    padding-left: 0.5px;
+}
+.vanita-links {
+    background-color: #7E5A9B;
+}
+.vanita-links:hover {
+    background-color: #63458A;
+}
+#bio3-img {
+    height: 300px;
+    width: auto;
+    box-shadow: 5px 5px 5px #E4B7E5;
+}
