@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -49,9 +52,22 @@
         <img src="img/VanitaRabsatt.png" alt="Vanita Rabsatt" class="vanita-picture">
         <p>Scrum Master</p>
         <!-- I altered the toggleBio func to take in an array of id's so just put in all the ids of the pics and text for your bios! -->
-        <button onclick="toggleBio(['bio3'])">Show Bio</button>
-        <p id="bio3" class="bio">Vanita Rabsatt is a second-year majoring in Computer Science with a focus on Software Engineering & Web/App Development.</p>
-        <p></p>
+        <button id="bio3-button" onclick="toggleBio(['bio3'])">Show Bio</button>
+        <section id="bio3" class="bio">
+            <p><b>Vanita Rabsatt</b> is a second-year majoring in Computer Science with a focus on Software Engineering & Web/App Development.</p>
+            <section id="bio3-2">
+                <p>My favorite resources:</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+                    <li><a href="https://www.coursera.org/" target="_blank">Coursera</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
+                </ul>
+            </section>
+            <img src="img/IMG_5815.JPG" alt="Hamster meme" id="bio3-img">
+            <button class="vanita-links" onclick="window.open('https://github.com/vanita-r', '_blank')">Personal GitHub</button>
+            <button class="vanita-links" onclick="window.open('https://vanita-r.github.io/itis3135/introduction.html', '_blank')">Project from a class</button>
+        </section>
     </div>
 </div>
 
